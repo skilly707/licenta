@@ -5,62 +5,7 @@
 ! ***** New Creo 3.0 Options ******
 allow_save_failed_models yes
 !
-! ***** Misc Options *****
-!
-!
-! ***** Display Options *****
-!
-!
-! ***** Options for MMKS Unit System *****
-!
-!
-! ***** Options for INLBS Unit System *****
-!
-! ***** Library Paths/Locations *****
-!
-!
-! Education Version Standard MMKS Unit System Configuration Options
-! 20110921
-!
-! ***** New Creo 3.0 Options ******
-allow_save_failed_models yes
-show_sketch_dims_in_feature yes
-check_interference_of_matches no
-autoplace_single_comp no
-system_background_color 100 100 100
-!
-! ***** Misc Options *****
-!
-allow_3dbox_selection yes
-ang_dim_in_screen yes
-attach_menumanager yes
-auto_add_remove yes
-can_snap_to_missing_ref no
-comp_assemble_start move_then_place
-create_temp_interfaces yes
-dim_fraction_denominator 128
-hole_diameter_override yes
-inch_grid_interval .125
-keep_info_datums no
-logical_objects yes
-marquee_selection_for_parts yes
-millimeter_grid_interval .5
-preferred_save_as_type dwg
-preferred_save_as_type dxf
-preferred_save_as_type iges
-preferred_save_as_type shrinkwrap
-preferred_save_as_type step
-provide_pick_message_always no
-retrieve_merge_ref_parts no
-save_dialog_for_existing_models no
-sketcher_refit_after_dim_modify no
-shrinkwrap_alert no
-suppress_appearance_message yes
-!
-! ***** Display Options *****
-!
-display_axis_tags yes
-display_point_tags yes
+! ***** Misc Opt
 max_animation_time .5
 min_animation_steps 15
 open_window_maximized yes
