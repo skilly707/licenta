@@ -16,21 +16,6 @@ allow_save_failed_models yes
 !
 ! ***** Options for INLBS Unit System *****
 !
-!drawing_setup_file $pro_directory\creo_standards\draw_standards\standard_in.dtl
-!pro_unit_length unit_inch
-!pro_unit_mass unit_pound
-!pro_unit_sys proe_def
-!template_designasm $pro_directory\creo_standards\templates\start_assembly_inlbs.asm
-!template_drawing $pro_directory\creo_standards\templates\c_drawing.drw
-!template_mfgcast $pro_directory\creo_standards\templates\inlbs_mfg_cast.asm
-!template_mfgemo $pro_directory\creo_standards\templates\inlbs_mfg_emo.asm
-!template_mfgmold $pro_directory\creo_standards\templates\inlbs_mfg_mold.asm
-!template_mfgnc $pro_directory\creo_standards\templates\inlbs_mfg_nc.asm
-!template_sheetmetalpart $pro_directory\creo_standards\templates\sheetmetal_start_part_inlbs.prt
-!template_solidpart $pro_directory\creo_standards\templates\solid_start_part_inlbs.prt
-!weld_ui_standard ansi
-!default_dec_places 3
-!
 ! ***** Library Paths/Locations *****
 !
 !
@@ -65,8 +50,8 @@ preferred_save_as_type dxf
 preferred_save_as_type iges
 preferred_save_as_type shrinkwrap
 preferred_save_as_type step
-provide_pick_message_always yes
-retrieve_merge_ref_parts yes
+provide_pick_message_always no
+retrieve_merge_ref_parts no
 save_dialog_for_existing_models no
 sketcher_refit_after_dim_modify no
 shrinkwrap_alert no
@@ -83,6 +68,7 @@ prehighlight_tree yes
 !
 ! ***** Options for MMKS Unit System *****
 !
+add xxy
 pro_unit_sys mmks
 template_mfgcast $pro_directory\creo_standards\templates\mmks_mfg_cast.asm
 template_mfgemo $pro_directory\creo_standards\templates\mmks_mfg_emo.asm
