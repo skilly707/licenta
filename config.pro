@@ -5,45 +5,6 @@
 ! ***** New Creo 3.0 Options ******
 allow_save_failed_models yes
 !
-! ***** Misc Opt
-max_animation_time .5
-min_animation_steps 15
-open_window_maximized yes
-prehighlight_tree yes
-!
-! ***** Options for MMKS Unit System *****
-!
-add xxy
-pro_unit_sys mmks
-template_mfgcast $pro_directory\creo_standards\templates\mmks_mfg_cast.asm
-template_mfgemo $pro_directory\creo_standards\templates\mmks_mfg_emo.asm
-template_mfgmold $pro_directory\creo_standards\templates\mmks_mfg_mold.asm
-template_mfgnc $pro_directory\creo_standards\templates\mmks_mfg_nc.asm
-!
-! ***** Options for INLBS Unit System *****
-!
-!
-! ***** Library Paths/Locations *****
-!
-pro_format_dir D:\2020\ianuarie + februarie\formats\
-pro_library_dir $pro_directory\creo_standards
-pro_material_dir $pro_directory\creo_standards\material_database
-search_path $pro_directory\creo_standards\formats\sample_formats
-search_path $pro_directory\creo_standards\formats\dte_formats
-!
-format_setup_file $PRO_DIRECTORY\text\prodetail.dtl
-pro_unit_length unit_mm
-pro_unit_mass unit_kilogram
-template_new_ecadasm C:\1.PROGRAME\Creo 3.0\Creo 3.0\M120\Common Files\templates\mmns_ecad_asm.asm
-template_drawing $PRO_DIRECTORY\templates\c_drawing.drw
-template_boardpart C:\1.PROGRAME\Creo 3.0\Creo 3.0\M120\Common Files\templates\mmks_ecad_board.prt
-todays_date_note_format %Mmm %dd %yy
-weld_ui_standard iso
-search_path_file $CREO_COMMON_FILES\afx\parts\prolibrary\search.pro
-!config.pro currentDate 24.06.2015
-!redone for migration 24.06.2015 SB/CF
-!10.02.2016 IB
-!Delete invalid keywords
 !Change the path for dtl file
 !Add option for import with template (intf_in_use_template_models yes)
 !granite setings
@@ -78,42 +39,6 @@ file_open_default_folder working_directory
 display_full_object_path yes
 show_dim_sign no
 allow_move_view_with_move yes
-show_axes_for_extr_arcs yes
-part_table_editor editor
-default_draw_scale 1.000000
-save_drawing_picture_file embed
-open_simplified_rep_by_default yes
-save_model_display shading_lod
-default_dec_places 1
-let_proe_rename_pdm_objects yes
-relation_file_editor editor
-!Verzeichniseinstellungen
-trail_dir C:\temp
-plot_file_dir C:\temp\ptc\plot\
-pro_group_dir C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\udf\
-pro_sheet_met_dir C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\shtmtl\
-mdl_tree_cfg_file C:\Users\Ciprian\Desktop\Config\Config\baum_engl.cfg
-bom_format C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\bom.met
-pro_dtl_setup_dir C:\1.PROGRAME\Creo 3.0\Config
-drawing_setup_file C:\Users\Ciprian\Desktop\Config\Config\Active Drawing.dtl
-pro_colormap_path C:\1.PROGRAME\Creo 3.0\Config
-start_model_dir C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\startmodelle\
-template_solidpart C:\1.PROGRAME\Creo 3.0\Creo 3.0\M120\Common Files\templates\solid_part_mmks.prt
-template_sheetmetalpart C:\1.PROGRAME\Creo 3.0\Creo 3.0\M120\Common Files\templates\mmns_part_sheetmetal.prt
-template_designasm C:\1.PROGRAME\Creo 3.0\Creo 3.0\M120\Common Files\templates\mmks_asm_design.asm
-pro_symbol_dir C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\Symbols\
-pro_table_dir C:\Program Files\PTC\Creo 2.0-M100\Creo 2.0\Common Files\M100\fri_settings\cad-startup\proe\BOM-Tables\
-! CAT-Teilebibliothek
-!speichern
-override_store_back NO
-save_object_in_current NO
-compress_output_files YES
-rename_drawings_with_object both
-save_modified_draw_models_only yes
-!genauigkeiten
-accuracy_lower_bound 1e-6
-enable_absolute_accuracy yes
-default_abs_accuracy 1e-3
 !display und visualisierungs optionen
 auto_regen_views yes
 spin_center_display no
@@ -134,33 +59,6 @@ select_on_dtm_edges ALL_MODES
 flip_arrow_scale 2
 transparency YES
 edge_display_quality VERY_HIGH
-display_thick_cables yes
-enable_resource_browser_tab no
-web_browser_homepage https://www.google.ro/
-!erzeugung von KE
-grid_snap NO
-model_grid_spacing 10
-!erzeugung von Teilen
-default_object_scope_setting ALL
-default_object_invalid_refs COPY
-!Familienteile
-read_famtab_file_on_retrieve NO
-remember_replaced_components NO
-!referenzsteuerung voreinstellung
-default_ext_ref_scope all
-scope_invalid_refs COPY
-allow_ref_scope_change YES
-model_allow_ref_scope_change YES
-ignore_all_ref_scope_settings yes
-! Zeichnungs-Optionen
-highlight_new_dims YES
-parenthesize_ref_dim YES
-tol_display YES
-tolerance_standard ISO
-create_drawing_dims_only yes
-! Text-Editoren
-pro_editor_command C:\WINDOWS\system32\notepad.exe
-drawing_file_editor editor
 ! Schnittstellenoptionen
 fix_boundaries_on_import no
 auto_associate_dimensions yes
