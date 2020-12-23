@@ -1,4 +1,4 @@
-﻿search_path_file $CREO_COMMON_FILES\ifx\parts\prolibrary\search.pro
+﻿fgh
 ! Education Version Standard MMKS Unit System Configuration Options
 ! 20110921
 !
